@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ian Song</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+            });
+        });
+    </script>
+</head>
+<body>
+    <nav>
+        <div class="wrapper-menu">
+            <ul>
+                <li class="menu"><a href="index.html">Home</a></li>
+                <li class="menu"><a href="#about me">About Me</a></li>
+                <li class="menu"><a href="blog/index.html">Blog</a></li>
+                <li class="menu"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <h1 class="title">
+            hello world
+        </h1>
+    </div>
+</body>
+</html>
